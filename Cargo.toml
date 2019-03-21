@@ -32,7 +32,8 @@ version = "0.3"
 [dependencies.digest]
 version = "0.6"
 
-[dependencies.subtle] = { git = "https://github.com/moshih/subtle", branch = "master" }
+[dependencies]
+subtle={ git = "https://github.com/moshih/subtle", branch = "master" }
 #[dependencies.subtle]
 #version = "^0.1"
 
