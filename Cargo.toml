@@ -32,8 +32,9 @@ version = "0.3"
 [dependencies.digest]
 version = "0.6"
 
-[dependencies.subtle]
-version = "^0.1"
+[dependencies.subtle] = { git = "https://github.com/moshih/subtle", branch = "master" }
+#[dependencies.subtle]
+#version = "^0.1"
 
 [dependencies.generic-array]
 # same version that digest depends on
